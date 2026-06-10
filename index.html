@@ -1,0 +1,514 @@
+<script src="https://pl25023222.effectivecpmnetwork.com/6c/f6/8e/6cf68e7bfd41e4c147b7f012a4536f61.js"></script>
+<script src="https://pl27165191.effectivecpmnetwork.com/c9/c1/c8/c9c1c8baeaf80c6d9eaf053c51ff4ad6.js"></script>
+<script>
+  atOptions = {
+    'key' : '964c30fe38b161774e5d7dc0082be015',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/964c30fe38b161774e5d7dc0082be015/invoke.js"></script>
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>সোশ্যাল হাব | মাসুম বিল্লাহ</title>
+  <!-- Google Fonts & Font Awesome 6 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at 10% 20%, rgba(2, 20, 35, 1) 0%, rgba(0, 8, 18, 1) 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: repeating-radial-gradient(circle at 20% 30%, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 2px, transparent 2px, transparent 4px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .social-card {
+      max-width: 880px;
+      width: 100%;
+      background: rgba(12, 22, 35, 0.65);
+      backdrop-filter: blur(18px);
+      border-radius: 3rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+      padding: 2rem 2rem 2.2rem;
+      transition: all 0.3s ease;
+      z-index: 2;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    
+    /* avatar container with image upload support */
+    .avatar-icon {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 1rem auto;
+      background: linear-gradient(135deg, #2b6c9e, #1a3f5c);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 15px 25px -8px rgba(0,0,0,0.4);
+      border: 2px solid rgba(255,255,255,0.25);
+      transition: transform 0.2s;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .avatar-wrapper {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .avatar-wrapper i, 
+    .avatar-wrapper img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      object-fit: cover;
+      transition: opacity 0.2s ease;
+    }
+    .avatar-wrapper i {
+      font-size: 3.8rem;
+      color: #f0f9ff;
+      filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.2));
+      background: transparent;
+    }
+    .avatar-wrapper img {
+      border-radius: 50%;
+      object-fit: cover;
+      display: none;
+    }
+    /* ক্যামেরা ওভারলে - ছবি এড করার অপশন */
+    .avatar-overlay {
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0.9;
+      transition: all 0.2s ease;
+      z-index: 5;
+      border: 1px solid rgba(255,255,255,0.3);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .avatar-overlay i {
+      font-size: 1rem;
+      color: white;
+      text-shadow: 0 0 2px black;
+    }
+    .avatar-icon:hover .avatar-overlay {
+      opacity: 1;
+      transform: scale(1.05);
+      background: rgba(0, 0, 0, 0.85);
+    }
+    /* মোবাইলে সবসময় দৃশ্যমান */
+    @media (max-width: 620px) {
+      .avatar-overlay {
+        opacity: 0.9;
+        width: 28px;
+        height: 28px;
+        bottom: 2px;
+        right: 2px;
+      }
+      .avatar-overlay i {
+        font-size: 0.85rem;
+      }
+    }
+
+    .profile h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      background: linear-gradient(120deg, #ffffff, #bfd9ff);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 0.3rem;
+    }
+    .profile .tagline {
+      color: #b0d4ff;
+      font-weight: 400;
+      font-size: 0.95rem;
+      background: rgba(255,255,255,0.08);
+      display: inline-block;
+      padding: 0.2rem 1rem;
+      border-radius: 40px;
+      backdrop-filter: blur(2px);
+    }
+    .profile-bio {
+      color: #cddce9;
+      margin-top: 0.7rem;
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+
+    .links-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin: 1.5rem 0 1.2rem 0;
+      border-bottom: 1px dashed rgba(255,255,255,0.2);
+      padding-bottom: 0.6rem;
+    }
+    .links-heading h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #eef5ff;
+      letter-spacing: -0.2px;
+    }
+    .links-heading span {
+      font-size: 0.75rem;
+      background: rgba(255,255,255,0.1);
+      padding: 0.2rem 0.7rem;
+      border-radius: 30px;
+      color: #bbd4ff;
+    }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: rgba(20, 32, 48, 0.65);
+      backdrop-filter: blur(4px);
+      padding: 0.9rem 1.3rem;
+      border-radius: 2rem;
+      text-decoration: none;
+      color: #f0f6ff;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: all 0.25s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    }
+    .social-link i {
+      font-size: 1.7rem;
+      width: 32px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .social-link .platform-name {
+      flex: 1;
+      font-weight: 500;
+      letter-spacing: -0.2px;
+    }
+    .social-link .arrow-hint {
+      font-size: 0.85rem;
+      opacity: 0.6;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .social-link:hover {
+      transform: translateY(-4px) scale(1.01);
+      border-color: rgba(255,255,255,0.3);
+      box-shadow: 0 14px 24px -8px rgba(0, 0, 0, 0.5);
+    }
+    .social-link:hover i {
+      transform: scale(1.05);
+    }
+    .social-link:hover .arrow-hint {
+      opacity: 1;
+      transform: translateX(3px);
+    }
+
+    /* ব্র্যান্ড কালার */
+    .fb-link:hover { background: #1877f2; }
+    .ig-link:hover { background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af); border-color: #ffbe8c; }
+    .linkedin-link:hover { background: #0077b5; }
+    .youtube-link:hover { background: #ff0000; }
+    .tiktok-link:hover { background: #010101; box-shadow: 0 8px 18px rgba(0,0,0,0.6); }
+    .discord-link:hover { background: #5865f2; }
+
+    .custom-note {
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 1.5rem;
+      padding: 0.7rem 1.2rem;
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: #9bb4cc;
+      border: 1px solid rgba(255,255,255,0.05);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .custom-note i {
+      font-size: 0.8rem;
+      color: #79b8ff;
+    }
+    .footer-credit {
+      margin-top: 1.8rem;
+      text-align: center;
+      font-size: 0.7rem;
+      color: #5f7f9e;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 1rem;
+    }
+    .footer-credit i.fa-heart {
+      color: #ff9f7c;
+    }
+
+    @media (max-width: 620px) {
+      .social-card { padding: 1.5rem; }
+      .social-grid { grid-template-columns: 1fr; gap: 0.9rem; }
+      .profile h1 { font-size: 1.6rem; }
+      .avatar-icon { width: 80px; height: 80px; }
+      .avatar-wrapper i { font-size: 3rem; }
+    }
+    @media (max-width: 480px) {
+      .social-link { padding: 0.75rem 1rem; }
+      .links-heading h2 { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="social-card">
+  <div class="profile">
+    <!-- গোল চিহ্ন (avatar) যেখানে ছবি এড করার অপশন দেওয়া হয়েছে -->
+    <div class="avatar-icon" id="avatarContainer">
+      <div class="avatar-wrapper">
+        <i class="fas fa-user-astronaut" id="avatarIcon"></i>
+        <img id="avatarPhoto" alt="profile picture" style="display: none;">
+      </div>
+      <div class="avatar-overlay" id="cameraOverlay">
+        <i class="fas fa-camera"></i>
+      </div>
+    </div>
+    <h1>MASUM BILLAH </h1>
+    <div class="tagline">
+      <i class="fas fa-globe"></i> Offline Team Entertainment
+    </div>
+    <div class="profile-bio">
+      🌟 এখানে আমাদের সকল প্রফাইল রয়েছে  — ক্লিক করুন আর ফলো করে আমাদের সাথে থাকুন  🌟
+    </div>
+  </div>
+
+  <div class="links-heading">
+    <h2><i class="fas fa-share-alt" style="margin-right: 8px;"></i> আমার সোশ্যাল মিডিয়া</h2>
+    <span>সরাসরি যান</span>
+  </div>
+
+  <div class="social-grid">
+    <!-- ফেসবুক -->
+    <a href="https://www.facebook.com/masumbillahboy/" class="social-link fb-link" target="_blank" rel="noopener noreferrer" title="Facebook">
+      <i class="fab fa-facebook-f"></i>
+      <span class="platform-name">Facebook</span>
+      <i class="fas fa-arrow-right arrow-hint"></i>
+    </a>
+    
+    <!-- ইনস্টাগ্রাম (লিংক আপডেট করা হয়েছে) -->
+    <a href="https://www.instagram.com/masumbillahboy?igsh=czg2YXVncjByNHBz" class="social-link ig-link" target="_blank" rel="noopener noreferrer" title="Instagram">
+      <i class="fab fa-instagram"></i>
+      <span class="platform-name">Instagram</span>
+      <i class="fas fa-arrow-right arrow-hint"></i>
+    </a>
+    
+    <!-- লিংকডইন (প্লেসহোল্ডার) -->
+    <a href="#" class="social-link linkedin-link" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+      <span class="platform-name">LinkedIn</span>
+      <i class="fas fa-arrow-right arrow-hint"></i>
+    </a>
+    
+    <!-- ইউটিউব -->
+    <a href="https://www.youtube.com/@offlineteambd26" class="social-link youtube-link" target="_blank" rel="noopener noreferrer" title="YouTube">
+      <i class="fab fa-youtube"></i>
+      <span class="platform-name">YouTube</span>
+      <i class="fas fa-arrow-right arrow-hint"></i>
+    </a>
+    
+    <!-- টিকটক -->
+    <a href="https://www.tiktok.com/@masubillahboy?is_from_webapp=1&sender_device=pc" class="social-link tiktok-link" target="_blank" rel="noopener noreferrer" title="TikTok">
+      <i class="fab fa-tiktok"></i>
+      <span class="platform-name">TikTok</span>
+      <i class="fas fa-arrow-right arrow-hint"></i>
+    </a>
+    
+    <!-- ডিসকর্ড (লিংক আপডেট করা হয়েছে) -->
+    <a href="https://discord.gg/tcaExQsHZG" class="social-link discord-link" target="_blank" rel="noopener noreferrer" title="Discord">
+      <i class="fab fa-discord"></i>
+      <span class="platform-name">Discord</span>
+      <i class="fas fa-arrow-right arrow-hint"></i>
+    </a>
+  </div>
+
+  <div class="custom-note">
+    <i class="fas fa-check-circle"></i>
+    <span>✅ প্রোফাইলের ছবি যোগ করতে ক্যামেরা আইকনে ক্লিক করুন | সব লিংক সক্রিয়</span>
+  </div>
+  
+  <div class="footer-credit">
+    <span></span><br>
+    <span>Please Follow Our Page And Subscribe Our Channel <i class="fas fa-heart"></i></span>
+  </div>
+</div>
+
+<!-- ছবি আপলোড ও localStorage পার্সিস্টেন্স ফিচার -->
+<script>
+  (function() {
+    // DOM elements
+    const avatarContainer = document.getElementById('avatarContainer');
+    const avatarIcon = document.getElementById('avatarIcon');
+    const avatarPhoto = document.getElementById('avatarPhoto');
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = 'image/jpeg, image/png, image/webp, image/jpg';
+    fileInput.style.display = 'none';
+    document.body.appendChild(fileInput);
+    
+    // স্টোরেজ কী
+    const STORAGE_KEY = 'masum_avatar_image';
+    
+    // ফাংশন: আপডেট অ্যাভাটার (ডাটা ইউআরএল অথবা রিসেট)
+    function setAvatarImage(dataUrl) {
+      if (dataUrl) {
+        avatarPhoto.src = dataUrl;
+        avatarPhoto.style.display = 'block';
+        avatarIcon.style.display = 'none';
+        // ব্যাকগ্রাউন্ড গ্রেডিয়েন্টের পরিবর্তে ইমেজ কভার করবে, কিন্তু অ্যাভাটার-আইকন ডিভের ব্যাকগ্রাউন্ড থেকে যায়, তাতে সমস্যা নেই, ছবি পুরো কভার করবে
+        // আরো ক্লিন দেখাতে চাইলে ব্যাকগ্রাউন্ড স্বচ্ছ করা যায় (ঐচ্ছিক)
+        avatarContainer.style.background = 'transparent';
+      } else {
+        // ডিফল্ট আইকনে ফিরে যান
+        avatarPhoto.style.display = 'none';
+        avatarIcon.style.display = 'flex';
+        avatarContainer.style.background = 'linear-gradient(135deg, #2b6c9e, #1a3f5c)';
+        avatarPhoto.src = '';
+      }
+    }
+    
+    // লোকালস্টোরেজ থেকে সংরক্ষিত ছবি লোড করা
+    function loadSavedAvatar() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved && saved.startsWith('data:image')) {
+        setAvatarImage(saved);
+      } else {
+        // ডিফল্ট স্টেট (আইকন)
+        setAvatarImage(null);
+      }
+    }
+    
+    // ছবি নির্বাচন করার পর প্রসেস
+    function handleImageUpload(file) {
+      if (!file || !file.type.startsWith('image/')) {
+        // ভুল ফাইল টাইপ
+        console.warn('শুধু ছবির ফাইল অনুমোদিত');
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const imageDataUrl = e.target.result;
+        // প্রিভিউ সেট
+        setAvatarImage(imageDataUrl);
+        // লোকালস্টোরেজে সংরক্ষণ
+        localStorage.setItem(STORAGE_KEY, imageDataUrl);
+        // ছোট্ট নোটিফিকেশন কনসোলে (আনন্দের জন্য)
+        console.log('✅ প্রোফাইল ছবি সফলভাবে আপডেট হয়েছে!');
+      };
+      reader.onerror = function() {
+        alert('ছবি পড়তে সমস্যা হয়েছে, আবার চেষ্টা করুন।');
+      };
+      reader.readAsDataURL(file);
+    }
+    
+    // ক্যামেরা আইকনে ক্লিক করলে ফাইল পিকার খোলা
+    const cameraOverlay = document.getElementById('cameraOverlay');
+    if (cameraOverlay) {
+      cameraOverlay.addEventListener('click', (e) => {
+        e.stopPropagation();
+        fileInput.click();
+      });
+    }
+    // অ্যাভাটার কন্টেইনারেও ক্লিক করলে অপশন হিসেবে কাজ করবে (ব্যাকআপ)
+    avatarContainer.addEventListener('click', (e) => {
+      // যাতে ওভারলে ক্লিক করলে ডাবল ট্রিগার না হয়
+      if (e.target === cameraOverlay || cameraOverlay.contains(e.target)) return;
+      fileInput.click();
+    });
+    
+    // ফাইল সিলেক্ট হলে ইভেন্ট
+    fileInput.addEventListener('change', (e) => {
+      if (fileInput.files && fileInput.files.length > 0) {
+        handleImageUpload(fileInput.files[0]);
+      }
+      fileInput.value = ''; // রিসেট সো পরবর্তী একই ফাইল আপলোডে ট্রিগার হয়
+    });
+    
+    // পেজ লোডে পূর্বের ছবি দেখানো
+    loadSavedAvatar();
+    
+    // অতিরিক্ত: অন্যান্য লিঙ্ক চেক (ডেভেলপার কনসোল ইঙ্গিত)
+    const allLinks = document.querySelectorAll('.social-link');
+    console.log('🚀 সোশ্যাল হাব রেডি! ফেসবুক, ইনস্টাগ্রাম, ইউটিউব, টিকটক, ডিসকর্ড লিংক সক্রিয়।');
+    allLinks.forEach(link => {
+      if (link.getAttribute('href') === '#') {
+        console.log(`ℹ️ ${link.querySelector('.platform-name')?.innerText} লিংকটি পরে আপডেট করুন (বর্তমানে প্লেসহোল্ডার)`);
+      } else {
+        console.log(`✅ ${link.querySelector('.platform-name')?.innerText} লিংক সক্রিয়`);
+      }
+    });
+    
+    // ব্যাখ্যা: গোল চিহ্নে ছবি এড করার অপশন সম্পূর্ণ সক্রিয়! ক্যামেরা আইকনে ক্লিক করে ছবি আপলোড করুন, সংরক্ষিত থাকবে রিফ্রেশের পরেও।
+  })();
+</script>
+
+<!-- বাহ্যিক স্ক্রিপ্ট (আসল কোডে প্রদত্ত) -->
+<script src="https://pl27165191.profitablecpmratenetwork.com/c9/c1/c8/c9c1c8baeaf80c6d9eaf053c51ff4ad6.js"></script>
+</body>
+</html>
